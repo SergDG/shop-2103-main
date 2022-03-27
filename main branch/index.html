@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
     <title>Document</title>
 </head>
 <body>
@@ -41,9 +42,24 @@
                 </li>
                 <li>
                     <h3>woman</h3>
+                    <ul>
+                        <li>Accessories</li>
+                        <li>Jackets & Coats</li>
+                        <li>Polos</li>
+                        <li>T-Shirts</li>
+                        <li>Shirts</li>
+                    </ul>
                 </li>
                 <li>
                     <h3>kids</h3>
+                    <ul>
+                        <li>Accessories</li>
+                        <li>Jackets & Coats</li>
+                        <li>Polos</li>
+                        <li>T-Shirts</li>
+                        <li>Shirts</li>
+                        <li>Bags</li>
+                    </ul>
                 </li>
             </ul>
         </nav>
@@ -51,26 +67,30 @@
     <main>
         <section>
             <img src="./img/man.jpg" alt="man">
-            <h1>the brand luxerious fashion</h1>
+            <h1>the brand of luxerious <span>fashion</span></h1>
         </section>
         <section>
-            <h2>sales</h2>
+            <h2 class="hidden-area">sales</h2>
             <ul>
                 <li>
+                    <img src="./img/woman-sales.jpg" alt="woman_sales">
                     <p>30% off</p>
                     <h3>for women</h3>
                 </li>
                 <li>
-                    <h3>hot deal</h3>
-                    <p>for men</p>
+                    <img src="./img/man-sales.jpg" alt="man-sales">
+                    <p>hot deal</p>
+                    <h3>for men</h3>
                 </li>
                 <li>
-                    <h3>hot deal</h3>
-                    <p>for kids</p>
+                    <img src="./img/fore-kids-sales.jpg" alt="kids-sales">
+                    <p>new arrivals</p>
+                    <h3>for kids</h3>
                 </li>
                 <li>
-                    <h3>hot deal</h3>
-                    <p>for men</p>
+                    <img src="./img/accesories-sales.jpg" alt="accesories-sales">
+                    <p>luxirous & trendy</p>
+                    <h3>Accessories</h3>
                 </li>
             </ul>
         </section>
@@ -79,41 +99,84 @@
             <p>Shop for items based on what we featured in this week</p>
             <ul>
                 <li>
-                    <img src="./img/man-products.jpg" alt="products">
+                    <img src="./img/man-bags&shirts.jpg" alt="bags&shirts">
                     <h3>ellery x m'o capsule</h3>
                     <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                     <p>$52.00</p>
                 </li>
                 <li>
+                    <img src="./img/woman-black-shirt.jpg" alt="woman-black-shirt">
                     <h3>ellery x m'o capsule</h3>
                     <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                     <p>$52.00</p>
                 </li>
                 <li>
+                    <img src="./img/man-panama-shorts.jpg" alt="man-panama-shorts">
                     <p>ellery x m'o capsule</p>
                     <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                     <p>$52.00</p>
                 </li>
                 <li>
+                    <img src="./img/man-pants.jpg" alt="man-pants">
                     <p>ellery x m'o capsule</p>
                     <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                    <span>$52.00</span>
+                    <p>$52.00</p>            
+                </li>
+                <li>
+                    <img src="./img/woman-suit.jpg" alt="woman-suit">
+                    <p>ellery x m'o capsule</p>
+                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p>$52.00</p>
+                </li>
+                <li>
+                    <img src="./img/woman-tank-top.jpg" alt="woman-tank-top">
+                    <p>ellery x m'o capsule</p>
+                    <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p>$52.00</p>
+                </li>
+            </ul>
+            <button>Browse All Product</button>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <h2 class="hidden-area">advantages</h2>
+            <ul>
+                <li>   
+                    <img src="./img/delivery.svg" alt="delivery">
+                    <h4>Free Delivery</h4>
+                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                </li>
+                <li>
+                    <img src="./img/sales.svg" alt="Sales & discounts">
+                    <h4>Sales & discounts</h4>
+                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                </li>
+                <li>
+                    <img src="./img/crown-quality.svg" alt="Sales & discounts">
+                    <h4>Quality assurance</h4>
+                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
                 </li>
             </ul>
         </section>
         <section>
-            <h2>advantages</h2>
-            <ul>
-                <li>   
-                    <img src="" alt="">
-                </li>dsfsdf
-                <li></li>
-                <li></li>
-            </ul>
+            <img src="./img/head-in-the-footer.png" alt="smile-face">
+            <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
+            <form method=”post” action=”#”>
+                <input type=”text” name=e_mail” value=Enter-Your-Email>
+                <button>Subscribe</button>
+            </form>
         </section>
-    </main>
-    <footer>
-        <div>форма</div>
+        <section>
+            <p>© 2021  Brand  All Rights Reserved.</p>
+            <h2 class="hidden-area">social network</h2>
+            <ul>
+                <li><button><img src="./img/facebook-icon.svg" alt="facebook"></button></li>
+                <li><button><img src="./img/instagram-icon.svg" alt="instagram"></button></li>
+                <li><button><img src="./img/pinterest-icon.svg" alt="pinterest"></button></li>
+                <li><button><img src="./img/twitter-icon.svg" alt="twitter"></button></li>
+            </ul>
+        </section> 
     </footer>
 </body>
 </html>
